@@ -1,0 +1,842 @@
+{
+  "category": "URBAN_LEGEND",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/urban-legends",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "urban-legends",
+    "name": "Urban Legends",
+    "aliases": [
+      {
+        "name": "Contemporary Legends",
+        "region": "Academic terminology",
+        "meaning": "Preferred term in folklore studies"
+      },
+      {
+        "name": "Modern Folklore",
+        "region": "Academic",
+        "meaning": "Oral tradition of industrial/post-industrial societies"
+      },
+      {
+        "name": "Friend of a Friend Tales",
+        "region": "Colloquial",
+        "meaning": "Refers to typical narrative framing device"
+      },
+      {
+        "name": "Creepypasta",
+        "region": "Internet culture",
+        "meaning": "Internet-native urban legends"
+      }
+    ],
+    "category": "URBAN_LEGEND",
+    "subcategory": "Contemporary Folklore",
+    "tags": [
+      "folklore",
+      "contemporary-legend",
+      "oral-tradition",
+      "cautionary-tales",
+      "global",
+      "modern-mythology",
+      "internet-culture",
+      "memetics"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Contemporary folklore stories presented as true events, often featuring moral lessons or warnings. These narratives spread through word-of-mouth and digital media, adapting to local contexts while maintaining core themes.",
+      "full": "Urban legends are a form of modern folklore consisting of stories about unusual events or people that circulate as true accounts, typically through word-of-mouth or digital communication. These narratives often feature elements of horror, humor, or moral warnings, and are characterized by their adaptability to different contexts and cultures. Unlike traditional folklore, urban legends thrive in industrial and post-industrial societies, spreading through social networks, media, and increasingly through internet platforms. They serve similar sociological functions as traditional folklore, including encoding cultural anxieties, establishing social norms, and providing cautionary lessons. The phenomenon has evolved significantly with the internet age, spawning new formats like creepypasta and achieving unprecedented virality through social media."
+    },
+    "etymology": {
+      "origin": "The term 'urban legend' emerged in the 1960s-1970s to describe modern folklore that arose in urban contexts, though the phenomenon itself is much older. Jan Harold Brunvand popularized the term through his academic work and popular books.",
+      "meaning": "Stories set in contemporary times, often in urban or suburban settings, presented as factual accounts",
+      "first_use": "1968 (academic usage)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "URBAN_LEGEND",
+      "type": "Contemporary Folklore",
+      "subtype": "Oral and Digital Narrative",
+      "variant": "Global with Local Adaptations"
+    },
+    "related_phenomena": [
+      {
+        "id": "folklore",
+        "name": "Traditional Folklore",
+        "relationship": "predecessor",
+        "description": "Urban legends represent evolution of traditional folklore for modern society"
+      },
+      {
+        "id": "moral-panics",
+        "name": "Moral Panics",
+        "relationship": "associated",
+        "description": "Urban legends often fuel or reflect moral panics"
+      },
+      {
+        "id": "conspiracy-theories",
+        "name": "Conspiracy Theories",
+        "relationship": "overlap",
+        "description": "Some urban legends evolve into or overlap with conspiracy theories"
+      },
+      {
+        "id": "memetics",
+        "name": "Internet Memes",
+        "relationship": "parallel",
+        "description": "Similar transmission mechanisms and evolution patterns"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "narrative_structure": {
+      "framing": [
+        {
+          "device": "Friend of a friend (FOAF)",
+          "description": "Story happened to someone known to the teller, but not directly",
+          "frequency": "very common",
+          "purpose": "Creates plausibility while maintaining distance"
+        },
+        {
+          "device": "Local attribution",
+          "description": "Story relocated to familiar settings",
+          "frequency": "common",
+          "purpose": "Increases relevance and believability"
+        },
+        {
+          "device": "Media validation",
+          "description": "Claimed to be reported in news or confirmed by authorities",
+          "frequency": "common",
+          "purpose": "Adds credibility through institutional authority"
+        },
+        {
+          "device": "Urban detail",
+          "description": "Specific but verifiable details (dates, places, names)",
+          "frequency": "occasional",
+          "purpose": "Creates illusion of factuality"
+        }
+      ],
+      "elements": [
+        "Plausible but unusual situation",
+        "Unexpected twist or ironic ending",
+        "Cautionary moral or lesson",
+        "Elements of horror, humor, or disgust",
+        "Contemporary setting and concerns",
+        "Anonymous or semi-anonymous protagonists"
+      ]
+    },
+    "themes": {
+      "supernatural": [
+        {
+          "theme": "Ghostly encounters",
+          "examples": ["Bloody Mary", "Vanishing Hitchhiker", "Haunted locations"],
+          "frequency": "common"
+        },
+        {
+          "theme": "Occult and rituals",
+          "examples": ["Satanic panic narratives", "Cursed objects", "Ritual murders"],
+          "frequency": "common"
+        },
+        {
+          "theme": "Entities and monsters",
+          "examples": ["Slender Man", "Black Eyed Children", "Hookman"],
+          "frequency": "common"
+        }
+      ],
+      "cautionary": [
+        {
+          "theme": "Stranger danger",
+          "examples": ["Killer in the Backseat", "Babysitter and the Man Upstairs", "Poisoned Halloween candy"],
+          "frequency": "very common"
+        },
+        {
+          "theme": "Technology fears",
+          "examples": ["Kidney theft", "Snuff films", "Dark web horrors"],
+          "frequency": "common"
+        },
+        {
+          "theme": "Corporate/institutional distrust",
+          "examples": ["Fast food contamination", "Medical experiments", "Cover-ups"],
+          "frequency": "common"
+        }
+      ],
+      "contamination": [
+        {
+          "theme": "Food contamination",
+          "examples": ["Fried rat at KFC", "Spider eggs in bubble gum", "Worms in hamburgers"],
+          "frequency": "very common"
+        },
+        {
+          "theme": "Disease transmission",
+          "examples": ["AIDS needles in theater seats", "Tainted tampons", "Infected imports"],
+          "frequency": "common"
+        },
+        {
+          "theme": "Infestation",
+          "examples": ["Alligators in sewers", "Spiders in hairdos", "Roach eggs in envelope glue"],
+          "frequency": "common"
+        }
+      ],
+      "conspiracy": [
+        {
+          "theme": "Government conspiracy",
+          "examples": ["Area 51", "FEMA camps", "Chemtrails"],
+          "frequency": "common"
+        },
+        {
+          "theme": "Corporate malfeasance",
+          "examples": ["Product tampering", "Planned obsolescence conspiracies"],
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "transmission": {
+      "traditional": [
+        "Word-of-mouth at social gatherings",
+        "Workplace and school settings",
+        "Family storytelling",
+        "Letters and photocopies"
+      ],
+      "digital": [
+        "Social media sharing",
+        "Email forwards",
+        "Online forums and discussion boards",
+        "Creepypasta websites",
+        "YouTube and TikTok videos",
+        "Messaging apps"
+      ],
+      "mutation_patterns": [
+        "Local adaptation (names, places changed)",
+        "Technological updating (telegrams become texts)",
+        "Cultural translation (adapted to different societies)",
+        "Elaboration over time",
+        "Merger with other narratives"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Urban legends are a global phenomenon, appearing in all industrialized and post-industrialized societies. While specific narratives may originate in particular regions, core themes and structures are remarkably consistent across cultures.",
+      "continents": ["All continents with internet access"],
+      "scope": "Global",
+      "concentration": "Highest density in North America, Europe, East Asia, Australia"
+    },
+    "cultural_variants": {
+      "regional_adaptations": [
+        {
+          "region": "United States",
+          "characteristics": "Heavy emphasis on stranger danger, suburban anxieties, consumer culture fears",
+          "examples": ["Mall/shopping center legends", "Highway and car-related stories"]
+        },
+        {
+          "region": "Japan",
+          "characteristics": "Strong supernatural elements, technology integration, isolation themes",
+          "examples": ["Kuchisake-onna (Slit-Mouthed Woman)", "Teke Teke", "Aka Manto"]
+        },
+        {
+          "region": "Europe",
+          "characteristics": "Blend of traditional folklore with modern settings",
+          "examples": ["Black Volga", "Russian Sleep Experiment"]
+        },
+        {
+          "region": "Latin America",
+          "characteristics": "Religious themes, moral lessons, indigenous integration",
+          "examples": ["La Llorona modern variants", "Organ theft stories"]
+        }
+      ]
+    },
+    "temporal": {
+      "origins": {
+        "date": "Pre-industrial era",
+        "circa": true,
+        "source": "Urban legends evolved from traditional folklore"
+      },
+      "modern_era": {
+        "period": "1940s-present",
+        "description": "Recognized as distinct folklore category; mass media acceleration"
+      },
+      "digital_era": {
+        "period": "1990s-present",
+        "description": "Internet enables unprecedented spread and mutation; creepypasta emergence"
+      },
+      "peak_periods": [
+        {
+          "period": "1950s-1960s",
+          "description": "Post-war suburban anxiety; baby boom era cautionary tales"
+        },
+        {
+          "period": "1980s-1990s",
+          "description": "Satanic panic; stranger danger peak; early internet forwards"
+        },
+        {
+          "period": "2009-present",
+          "description": "Creepypasta era; social media virality; Slender Man phenomenon"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Urban legends represent the evolution of traditional folklore into contemporary contexts. They fulfill similar sociological functions as myths and fairy tales, but address modern anxieties and settings.",
+      "earliest_accounts": "While the modern study emerged in the 1960s, recognizable urban legends appear in 19th century newspapers and earlier oral traditions.",
+      "folklore_connections": "Direct descendant of cautionary tales, moral fables, and traditional ghost stories adapted for industrial society."
+    },
+    "timeline": [
+      {
+        "date": "1800s",
+        "event": "Early proto-urban legends",
+        "significance": "Newspaper hoaxes and sensational stories establish patterns",
+        "source": "Historical newspaper archives"
+      },
+      {
+        "date": "1940s-1950s",
+        "event": "Post-war suburban legends emerge",
+        "significance": "New social structures create new anxieties and narratives",
+        "source": "Folklore collections"
+      },
+      {
+        "date": "1968",
+        "event": "Academic recognition",
+        "significance": "Term 'urban legend' enters academic discourse",
+        "source": "Folklore journals"
+      },
+      {
+        "date": "1981",
+        "event": "Jan Harold Brunvand's 'The Vanishing Hitchhiker'",
+        "significance": "Popularizes urban legend study; brings phenomenon to mainstream attention",
+        "source": "Book publication"
+      },
+      {
+        "date": "1994",
+        "event": "Snopes.com founded",
+        "significance": "First major online resource for debunking urban legends and rumors",
+        "source": "Website archive"
+      },
+      {
+        "date": "2009",
+        "event": "Slender Man created",
+        "significance": "First internet-native legend to achieve widespread cultural impact; demonstrates new transmission mechanisms",
+        "source": "Something Awful forums"
+      },
+      {
+        "date": "2014",
+        "event": "Slender Man stabbing",
+        "significance": "Real-world violence attributed to fictional entity; demonstrates power of modern folklore",
+        "source": "News reports"
+      },
+      {
+        "date": "2020s",
+        "event": "TikTok legend virality",
+        "significance": "New platforms enable rapid spread and visual storytelling; examples include Siren Head, Cartoon Cat",
+        "source": "Social media"
+      }
+    ],
+    "modern_era": "Contemporary urban legends thrive in digital spaces, spreading faster and mutating more rapidly than ever before. The internet has democratized legend creation while simultaneously enabling rapid fact-checking. Social media platforms create perfect conditions for viral spread, while forum communities intentionally create and spread new legends (creepypasta). The boundary between fiction and belief becomes increasingly complex."
+  },
+
+  "famous_legends": {
+    "supernatural": [
+      {
+        "id": "bloody-mary",
+        "name": "Bloody Mary",
+        "origin_period": "1960s (modern form)",
+        "description": "Ritual where saying 'Bloody Mary' three times (or variants) in front of a mirror in darkness summons a malevolent spirit",
+        "variants": [
+          "Different invocation words and numbers",
+          "Different consequences (seeing future, scratches, possession)",
+          "Different identities for Mary (witch, murder victim, Queen Mary I)"
+        ],
+        "function": "Adolescent initiation rite; testing courage",
+        "status": "active"
+      },
+      {
+        "id": "vanishing-hitchhiker",
+        "name": "Vanishing Hitchhiker",
+        "origin_period": "Pre-automobile variants exist; car version 1930s+",
+        "description": "Motorist picks up hitchhiker who disappears from vehicle, later revealed to be ghost",
+        "variants": [
+          "Hitchhiker gives address, disappears, found to be deceased",
+          "Hitchhiker warns of danger then vanishes",
+          "Hitchhiker leaves physical evidence (jacket, book)"
+        ],
+        "function": "Commentary on stranger interaction; technological folklore (automobile)",
+        "status": "active"
+      },
+      {
+        "id": "slender-man",
+        "name": "Slender Man",
+        "origin_period": "2009",
+        "description": "Tall, thin, faceless entity in suit who stalks and abducts victims, especially children",
+        "variants": [
+          "Different origins and motivations",
+          "Different victim profiles",
+          "Different manifestation methods"
+        ],
+        "function": "Internet-age folklore; collective mythology building",
+        "status": "active",
+        "notes": "First documented internet-native entity to achieve legendary status"
+      },
+      {
+        "id": "black-eyed-children",
+        "name": "Black Eyed Children",
+        "origin_period": "1990s",
+        "description": "Children with completely black eyes who request entry to homes or vehicles; sensing danger if admitted",
+        "variants": [
+          "Different age ranges",
+          "Different locations (homes, cars, hotels)",
+          "Different consequences of admission"
+        ],
+        "function": "Stranger danger for internet age; threshold anxiety",
+        "status": "active"
+      }
+    ],
+    "cautionary": [
+      {
+        "id": "hookman",
+        "name": "The Hookman",
+        "origin_period": "1950s",
+        "description": "Escaped maniac with hook for hand attacks couples in parked cars; hook found on car door",
+        "variants": [
+          "Different weapons",
+          "Different settings (lovers' lane, home)",
+          "Different outcomes (survival, death)"
+        ],
+        "function": "Cautionary tale about teenage sexuality and isolation",
+        "status": "active",
+        "cultural_impact": "Influenced slasher film genre"
+      },
+      {
+        "id": "killer-in-backseat",
+        "name": "Killer in the Backseat",
+        "origin_period": "1960s",
+        "description": "Driver warned by flashing lights/gas station attendant about killer hiding in backseat",
+        "variants": [
+          "Different warning methods",
+          "Different locations discovered",
+          "Different weapons involved"
+        ],
+        "function": "Cautionary tale about awareness and stranger danger",
+        "status": "active"
+      },
+      {
+        "id": "babysitter-man-upstairs",
+        "name": "The Babysitter and the Man Upstairs",
+        "origin_period": "1960s",
+        "description": "Babysitter receives threatening calls asking 'Have you checked the children?'; police trace to inside house",
+        "variants": [
+          "Different call content",
+          "Different outcomes for children",
+          "Technology updates (landline to cell)"
+        ],
+        "function": "Cautionary tale about responsibility and home security",
+        "status": "active",
+        "cultural_impact": "Inspired 'When a Stranger Calls' and similar films"
+      },
+      {
+        "id": "kidney-theft",
+        "name": "Kidney Theft",
+        "origin_period": "1990s",
+        "description": "Person wakes in bathtub of ice after being drugged; kidney stolen for organ black market",
+        "variants": [
+          "Different organs stolen",
+          "Different locations (hotels, bars, parties)",
+          "Different victim demographics"
+        ],
+        "function": "Anxiety about trust, strangers, and medical/criminal exploitation",
+        "status": "active"
+      }
+    ],
+    "contamination": [
+      {
+        "id": "alligators-in-sewers",
+        "name": "Alligators in the Sewers",
+        "origin_period": "1930s (New York)",
+        "description": "Baby alligators flushed down toilets grow to full size in sewer systems",
+        "variants": [
+          "Different reptiles",
+          "Different cities",
+          "Different explanations for presence"
+        ],
+        "function": "Urban anxiety about hidden dangers beneath civilization",
+        "status": "active"
+      },
+      {
+        "id": "fast-food-contamination",
+        "name": "Fast Food Contamination",
+        "origin_period": "1970s-present",
+        "description": "Various forms of contamination in fast food (rats, mice, insects, human tissue)",
+        "variants": [
+          "Fried rat at KFC",
+          "Finger in chili",
+          "Mouse in soda bottle",
+          "Worm burgers"
+        ],
+        "function": "Distrust of corporate food production; class anxiety",
+        "status": "active"
+      },
+      {
+        "id": "spider-eggs",
+        "name": "Spider Eggs in Bubble Yum",
+        "origin_period": "1970s",
+        "description": "Bubble gum contains spider eggs that hatch in mouth/stomach",
+        "variants": [
+          "Different candies or products",
+          "Different parasites or contaminants",
+          "Different symptoms"
+        ],
+        "function": "Childhood anxiety about manufactured products",
+        "status": "dormant"
+      }
+    ]
+  },
+
+  "theories": {
+    "sociological": [
+      {
+        "name": "Anxiety Expression",
+        "description": "Urban legends encode and express societal anxieties about modernity, technology, strangers, and social change",
+        "proponents": ["Jan Harold Brunvand", "Bill Ellis"],
+        "evidence_cited": [
+          "Correlation between legend themes and contemporary social concerns",
+          "Evolution of legends following technological changes",
+          "Cross-cultural consistency in anxiety themes"
+        ]
+      },
+      {
+        "name": "Social Norm Enforcement",
+        "description": "Legends serve as cautionary tales that reinforce social norms and behavioral expectations",
+        "proponents": ["Gary Alan Fine", "Chip Heath"],
+        "evidence_cited": [
+          "Moral lessons embedded in narratives",
+          "Punishment for norm violations in stories",
+          "Use in parental warnings and social control"
+        ]
+      },
+      {
+        "name": "Information Economy",
+        "description": "Urban legends function as social currency, providing conversational capital and group bonding",
+        "proponents": ["Patricia Turner", "Gary Alan Fine"],
+        "evidence_cited": [
+          "Legends traded in social networks",
+          "Status gained from knowing and sharing stories",
+          "Group identity formation through shared narratives"
+        ]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Fear Management",
+        "description": "Telling and hearing legends allows safe exploration and management of fears",
+        "proponents": ["Jeffrey Victor"],
+        "evidence_cited": [
+          "Adolescent participation in legend-telling and rituals",
+          "Controlled exposure to frightening content",
+          "Emotional catharsis through narrative"
+        ]
+      },
+      {
+        "name": "Cognitive Bias",
+        "description": "Urban legends exploit cognitive biases including availability heuristic and confirmation bias",
+        "proponents": ["Chip Heath", "Dan Heath"],
+        "evidence_cited": [
+          "Memorable stories perceived as more probable",
+          "Confirmation of existing beliefs",
+          "Emotional impact enhancing memory"
+        ]
+      }
+    ],
+    "anthropological": [
+      {
+        "name": "Modern Mythology",
+        "description": "Urban legends represent contemporary mythology serving similar functions as traditional myths",
+        "proponents": ["Jan Harold Brunvand", "Linda Dégh"],
+        "evidence_cited": [
+          "Structural similarities to traditional folklore",
+          "Similar sociological functions",
+          "Cultural transmission patterns"
+        ]
+      },
+      {
+        "name": "Ritual Function",
+        "description": "Legend-telling and enactment (e.g., Bloody Mary) serve as modern initiation rites",
+        "proponents": ["Bill Ellis"],
+        "evidence_cited": [
+          "Adolescent participation patterns",
+          "Courage testing and social bonding",
+          "Threshold crossing symbolism"
+        ]
+      }
+    ],
+    "media_studies": [
+      {
+        "name": "Memetic Evolution",
+        "description": "Urban legends behave as cultural memes, evolving through variation and selection",
+        "proponents": ["Susan Blackmore", "Aaron Lynch"],
+        "evidence_cited": [
+          "Mutation patterns in legend transmission",
+          "Survival of 'fittest' narrative variants",
+          "Environmental adaptation (cultural/technological contexts)"
+        ]
+      },
+      {
+        "name": "Participatory Culture",
+        "description": "Internet enables collaborative legend creation and rapid iteration",
+        "proponents": ["Henry Jenkins", "Trevor Blank"],
+        "evidence_cited": [
+          "Slender Man collaborative creation",
+          "Creepypasta communities",
+          "Remix and elaboration patterns"
+        ]
+      }
+    ]
+  },
+
+  "case_studies": {
+    "slender_man": {
+      "title": "Slender Man: Fiction to Belief",
+      "date_range": "2009-present",
+      "significance": "First comprehensively documented internet-native legend; demonstrates rapid evolution from intentional fiction to quasi-belief system",
+      "timeline": [
+        {
+          "date": "2009-06-10",
+          "event": "Eric Knudsen posts original images to Something Awful forum",
+          "impact": "Creates entity with specific visual iconography"
+        },
+        {
+          "date": "2009-2012",
+          "event": "Collaborative elaboration",
+          "impact": "Community develops backstory, abilities, mythology"
+        },
+        {
+          "date": "2012",
+          "event": "Video game 'Slender' released",
+          "impact": "Mainstream exposure; transition to popular culture"
+        },
+        {
+          "date": "2014-05-31",
+          "event": "Wisconsin stabbing",
+          "impact": "Two 12-year-olds stab classmate, claim Slender Man influence"
+        },
+        {
+          "date": "2018",
+          "event": "Feature film released",
+          "impact": "Full integration into popular culture"
+        }
+      ],
+      "analysis": {
+        "transmission": "Demonstrates internet acceleration of legend-building process",
+        "belief": "Participants aware of fictional origin yet report 'real' experiences",
+        "psychology": "Shows power of collective narrative creation and social proof",
+        "cultural_impact": "Influenced subsequent internet entities (Siren Head, Cartoon Cat, etc.)"
+      },
+      "implications": [
+        "Blurred boundaries between fiction and folklore",
+        "Demonstrates participatory legend creation",
+        "Raises questions about responsibility in collaborative fiction",
+        "Shows persistence of folklore mechanisms in digital age"
+      ]
+    },
+    "satanic_panic": {
+      "title": "Satanic Panic and Ritual Abuse Legends",
+      "date_range": "1980s-1990s",
+      "significance": "Demonstrates how urban legends can fuel moral panics with real-world consequences",
+      "key_elements": [
+        "Daycare abuse allegations",
+        "Recovered memory therapy",
+        "Media amplification",
+        "Lack of physical evidence",
+        "Ruined lives and false convictions"
+      ],
+      "analysis": {
+        "legend_role": "Stories of satanic ritual abuse spread as urban legends",
+        "amplification": "Media coverage and expert validation created feedback loop",
+        "consequences": "False allegations, wrongful convictions, destroyed lives",
+        "resolution": "Eventually debunked but effects persisted"
+      },
+      "implications": [
+        "Demonstrates power of legend to influence institutions",
+        "Shows danger of uncritical belief",
+        "Illustrates social construction of panic",
+        "Highlights role of authority figures in legend validation"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Jan Harold Brunvand",
+        "affiliation": "University of Utah",
+        "contribution": "Pioneering folklorist who popularized urban legend study; author of 'The Vanishing Hitchhiker' series",
+        "period": "1981-present"
+      },
+      {
+        "name": "Bill Ellis",
+        "affiliation": "Pennsylvania State University",
+        "contribution": "Study of legend performance, Satanic panic, contemporary legend theory",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Gary Alan Fine",
+        "affiliation": "Northwestern University",
+        "contribution": "Sociological analysis of rumor and legend transmission",
+        "period": "1970s-present"
+      },
+      {
+        "name": "Linda Dégh",
+        "affiliation": "Indiana University",
+        "contribution": "Theoretical framework for contemporary legend studies",
+        "period": "1960s-2014"
+      },
+      {
+        "name": "Jeffrey Victor",
+        "affiliation": "Independent scholar",
+        "contribution": "Analysis of Satanic panic and moral panic legends",
+        "period": "1990s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "International Society for Contemporary Legend Research (ISCLR)",
+        "url": "https://www.contemporarylegend.org",
+        "focus": "Academic study of urban legends and contemporary folklore"
+      },
+      {
+        "name": "Snopes.com",
+        "url": "https://www.snopes.com",
+        "focus": "Fact-checking and documenting urban legends, rumors, and misinformation"
+      },
+      {
+        "name": "American Folklore Society",
+        "url": "https://www.afsnet.org",
+        "focus": "Broader folklore studies including urban legends"
+      }
+    ],
+    "journals": [
+      "Contemporary Legend (journal of ISCLR)",
+      "Journal of American Folklore",
+      "Western Folklore",
+      "Folklore Forum"
+    ],
+    "ongoing_studies": "Current research examines digital folklore, social media transmission, legend and conspiracy theory relationships, participatory legend creation, and cross-cultural legend transmission."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Slumber party ghost stories",
+        "Campfire tales",
+        "Email forwards",
+        "Social media sharing"
+      ],
+      "functions": [
+        "Social bonding through shared narratives",
+        "Adolescent initiation and courage testing",
+        "Expression of cultural anxieties",
+        "Entertainment and thrill-seeking",
+        "Moral instruction"
+      ]
+    },
+    "popular_culture": {
+      "literature": [
+        "Scary Stories to Tell in the Dark series (Alvin Schwartz)",
+        "The Vanishing Hitchhiker series (Jan Harold Brunvand)",
+        "Creepypasta collections",
+        "Are You Afraid of the Dark? series"
+      ],
+      "film_tv": [
+        "Candyman (1992) - Based on urban legend structure",
+        "Urban Legend (1998)",
+        "When a Stranger Calls (1979, 2006)",
+        "Slender Man (2018)",
+        "Creepshow series",
+        "Black Mirror (explores tech-age urban legends)"
+      ],
+      "online": [
+        "Creepypasta Wiki",
+        "Reddit NoSleep",
+        "SCP Foundation",
+        "YouTube horror narration channels"
+      ],
+      "academic": [
+        "University courses on folklore and urban legends",
+        "Conference presentations and papers",
+        "Digital humanities projects"
+      ]
+    },
+    "impact": {
+      "social": [
+        "Influence on parenting and safety behaviors",
+        "Product recalls and consumer panics",
+        "Policy changes (Halloween candy X-rays, etc.)",
+        "Community responses to perceived threats"
+      ],
+      "legal": [
+        "False allegations and investigations",
+        "Defamation cases",
+        "Questions of responsibility for harmful legends",
+        "Slender Man stabbing legal proceedings"
+      ],
+      "commercial": [
+        "Horror entertainment industry",
+        "Tourism (legend-related locations)",
+        "Halloween industry",
+        "Media content creation"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "brunvand-1981",
+      "type": "book",
+      "title": "The Vanishing Hitchhiker: American Urban Legends and Their Meanings",
+      "authors": ["Jan Harold Brunvand"],
+      "publication": "W.W. Norton & Company",
+      "date": "1981",
+      "isbn": "978-0393951691"
+    },
+    {
+      "id": "fine-2010",
+      "type": "book",
+      "title": "The Global Grapevine: Why Rumors of Terrorism, Immigration, and Trade Matter",
+      "authors": ["Gary Alan Fine", "Bill Ellis"],
+      "publication": "Oxford University Press",
+      "date": "2010",
+      "isbn": "978-0199736317"
+    },
+    {
+      "id": "degh-2001",
+      "type": "book",
+      "title": "Legend and Belief: Dialectics of a Folklore Genre",
+      "authors": ["Linda Dégh"],
+      "publication": "Indiana University Press",
+      "date": "2001",
+      "isbn": "978-0253214843"
+    },
+    {
+      "id": "snopes",
+      "type": "website",
+      "title": "Snopes.com Urban Legends Reference Pages",
+      "url": "https://www.snopes.com",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
