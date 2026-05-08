@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/urban-legends",
     "maintainers": [
       {
@@ -16,72 +16,134 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "urban-legends",
     "name": "Urban Legends",
-    "aliases": [],
+    "aliases": [
+      { "name": "Urban legend", "language": "English" },
+      { "name": "Urban myth", "language": "English" },
+      { "name": "Contemporary legend", "language": "English", "meaning": "academic preferred term in folklore studies" },
+      { "name": "Urban folklore", "language": "English" },
+      { "name": "FOAFtale", "language": "English", "meaning": "'friend-of-a-friend' tale; coined by folklorists for the genre's signature attribution" }
+    ],
     "category": "URBAN_LEGEND",
-    "subcategory": "Oral and Digital Narrative",
+    "subcategory": "Contemporary folklore narrative genre",
     "tags": [
       "folklore",
-      "mythology"
+      "contemporary-legend",
+      "modern-myth",
+      "foaf",
+      "creepypasta",
+      "internet",
+      "narrative-genre"
     ],
     "status": "documented",
     "description": {
-      "summary": "Urban legends are contemporary folklore stories presented as true events, often featuring moral lessons or warnings.",
-      "full": "Urban legends are contemporary folklore stories presented as true events, often featuring moral lessons or warnings. These narratives spread through word-of-mouth and digital media, adapting to local contexts while maintaining core themes of anxiety, caution, and social norms. Unlike traditional folklore rooted in pre-industrial societies, urban legends thrive in modern contexts—cities, suburbs, highways, and increasingly, the internet. They address contemporary concerns: stranger danger, technological fears, corporate distrust, and the anxieties of modern life. The phenomenon has evolved dramatically with the internet age, spawning new formats like creepypasta and achieving unprecedented virality through social media. From Bloody Mary mirror rituals to Slender Man collaborative mythology, urban legends continue to adapt, demonstrating the persistence of folkloric mechanisms in digital society."
+      "summary": "A genre of contemporary folklore consisting of unusual, frightening, or humorous narratives told as true accounts about everyday life, typically attributed to a 'friend of a friend' and rarely verifiable.",
+      "full": "Urban legends — preferred in academic folklore studies as 'contemporary legends' — are a recognized genre of folklore consisting of stories told as true (or potentially true) accounts that circulate orally, in print, and digitally, are usually unverifiable, and turn on themes of modern anxiety: cars, highways, hospitals, technology, food, sex, crime, and the body. The American folklorist Richard M. Dorson is generally credited with introducing 'urban legend' to academic discourse around 1968, but the term entered general English-language usage through the work of Jan Harold Brunvand, professor of English at the University of Utah, beginning with The Vanishing Hitchhiker: American Urban Legends and Their Meanings (1981). Urban legends share recognizable structural features: a 'friend-of-a-friend' (FOAF) attribution, a memorable plot turn, often a moral or cautionary edge, and continual local adaptation. Foundational older studies include Beardsley and Hankey's analysis of the Vanishing Hitchhiker (California Folklore Quarterly, 1942–1943) and Linda Dégh's work on legend-telling. The Internet era has transformed urban-legend transmission: chain emails, FOAF-attributed message-board posts, and 'creepypasta' (e.g. Slender Man, born from a 2009 Something Awful forum thread by Eric Knudsen) demonstrate that the genre's mechanisms — anonymous attribution, plausibility, communal authorship — are if anything more vigorous online than in oral culture. Snopes (founded 1994 by David and Barbara Mikkelson) became the standard public-facing debunking resource for urban legends and remains one of the most cited fact-checking websites today."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American English coinage, mid-20th century. Folklorist Richard M. Dorson is widely credited with introducing 'urban legend' as an academic term around 1968; the term went mainstream through Jan Harold Brunvand's books from 1981 onward.",
+      "meaning": "'Legend' (a narrative told as true) of 'urban' (modern, contemporary, mass-society) life — distinguishing such tales from older rural or 'primitive' folklore.",
+      "first_use": "Academic use c. 1968 (Dorson); popular use from 1981 (Brunvand)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "Oral and Digital Narrative",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Folklore narrative genre",
+      "subtype": "Contemporary legend",
+      "variant": "Modern, oral and digital"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "creepypasta", "name": "Creepypasta", "relationship": "subset", "description": "Internet-era horror urban legends spread through copy-paste posts on forums and image boards" },
+      { "id": "vanishing-hitchhiker", "name": "Vanishing Hitchhiker", "relationship": "subset", "description": "Iconic urban legend; Brunvand's 1981 book takes its title from this tale-type" },
+      { "id": "slender-man", "name": "Slender Man", "relationship": "subset", "description": "Internet-born urban legend created in 2009; landmark example of digital legend formation" },
+      { "id": "bloody-mary", "name": "Bloody Mary", "relationship": "subset", "description": "Adolescent mirror-ritual urban legend" },
+      { "id": "hookman", "name": "The Hook (Hookman)", "relationship": "subset", "description": "Classic American teenage cautionary urban legend" },
+      { "id": "folklore-general", "name": "Folklore (general)", "relationship": "superset", "description": "Broader category encompassing both traditional and contemporary legend genres" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "FOAF attribution", "description": "Stories are typically attributed to a 'friend of a friend' rather than to the teller", "frequency": "always" },
+        { "feature": "Told as true", "description": "The teller frames the story as a true (or possibly true) account, even when narrating implausible content", "frequency": "always" },
+        { "feature": "Cautionary or ironic ending", "description": "Many urban legends carry an implicit moral or punchline (the cautionary 'killer in the back seat'; the ironic 'choking Doberman')", "frequency": "common" },
+        { "feature": "Local adaptation", "description": "Specific names, addresses, and landmarks vary by retelling to localize the narrative", "frequency": "common" },
+        { "feature": "Reactive form", "description": "Urban legends evolve in response to current technology, news events, and anxieties", "frequency": "common" }
+      ],
+      "morphology": "A recognizable narrative form: short, plot-centered, single-episode story with a memorable twist; usually performed orally or in writing in a few minutes."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Viral transmission", "description": "Urban legends move rapidly through oral, print, email, and social-media networks", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "Incorporation into news", "description": "Urban legends are periodically reported as factual news, requiring corrections from outlets such as Snopes", "frequency": "common", "evidence_level": "documented" },
+      { "ability": "Cultural mirroring", "description": "Tales adapt to encode contemporary anxieties (corporate distrust, technological fear, moral panics)", "frequency": "always", "evidence_level": "documented" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "variable",
+      "habitat_preference": [
+        "oral conversation",
+        "schoolyards and college campuses",
+        "newspaper feature pages",
+        "chain emails and forwards",
+        "online forums and image boards",
+        "social media platforms"
+      ],
+      "patterns": [
+        "Spread through FOAF networks",
+        "Cluster around moments of cultural anxiety (e.g., satanic-panic legends in the 1980s, organ-theft legends in the 1990s, kidnapping/sex-trafficking variants in the 2010s–20s)",
+        "Periodically debunked by fact-checking institutions",
+        "Migrate between media (oral → print → email → social media → video)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
+      "description": "Urban legends are a global phenomenon, with active traditions documented across the United States, the United Kingdom, continental Europe, Latin America, East and South Asia, Africa, and Oceania.",
+      "continents": ["North America", "South America", "Europe", "Asia", "Africa", "Oceania"],
       "countries": [],
-      "regions": []
+      "regions": ["Worldwide"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-20th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Earlier 'belief legend' (Sagen) collected by 19th-century folklorists; Brunvand traces the Vanishing Hitchhiker back to the 1870s"
+      },
+      "peak_activity_periods": [
+        { "period": "1942–1943", "description": "Beardsley & Hankey publish their influential analysis of the Vanishing Hitchhiker in the California Folklore Quarterly" },
+        { "period": "1981–2000s", "description": "Brunvand's popular books bring 'urban legend' into general cultural usage; Snopes (1994) becomes the default fact-checking resource" },
+        { "period": "2009–present", "description": "Internet-era explosion of creepypasta legends (Slender Man 2009, The Russian Sleep Experiment, Backrooms 2019, etc.)" }
+      ],
+      "seasonal_patterns": "Many legends spike in seasonal cycles — e.g., camp-counselor and 'killer in the back seat' tales in summer, ghost legends around Halloween."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Urban legends inherit the structure of older 'belief legends' (Sagen) studied since the 19th century by the Brothers Grimm and Scandinavian folklorists, but adapt their themes to the modern, urbanized environment.",
+      "earliest_accounts": "The Vanishing Hitchhiker tale-type can be traced back at least to the 1870s; many other classic legends (the slipped poison ring, the body in the bed) have 19th-century or earlier antecedents.",
+      "folklore_connections": "Continuous with older belief-legend genres; differs in emphasis on contemporary settings (cars, hospitals, fast-food chains, the internet)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1942-01-01", "event": "Richard Beardsley and Rosalie Hankey publish 'The Vanishing Hitchhiker' in the California Folklore Quarterly", "significance": "First systematic academic typology of an urban legend, identifying four versions among 79 collected accounts", "source": "Beardsley & Hankey, California Folklore Quarterly (1942–1943)" },
+      { "date": "1968-01-01", "event": "Folklorist Richard M. Dorson uses the term 'urban legend' in academic context", "significance": "Establishes the term in folklore scholarship", "source": "Dorson, R. M. (1968)" },
+      { "date": "1981-01-01", "event": "Jan Harold Brunvand publishes The Vanishing Hitchhiker: American Urban Legends and Their Meanings", "significance": "Popular launch of the 'urban legend' concept; first of more than a dozen Brunvand volumes", "source": "Brunvand, J. H. (1981)" },
+      { "date": "1994-01-01", "event": "David and Barbara Mikkelson found Snopes (originally the Urban Legends Reference Pages) on the Web", "significance": "Inaugurates Internet-era fact-checking of urban legends", "source": "Snopes.com history; Wikipedia: Snopes" },
+      { "date": "2009-06-10", "event": "Eric Knudsen ('Victor Surge') posts the first images of Slender Man to a Something Awful forum thread", "significance": "Creation of the most influential 21st-century internet-born urban legend", "source": "Something Awful forum (10 June 2009); Wikipedia: Slender Man" },
+      { "date": "2014-05-31", "event": "Two 12-year-olds attack a classmate in Waukesha, Wisconsin, citing Slender Man as motivation", "significance": "Real-world consequences of an internet urban legend; major case study in legend-effect research", "source": "Court records; news reporting; Wikipedia: Slender Man stabbing" }
+    ],
+    "modern_era": "The contemporary urban-legend ecosystem includes oral retelling, news media, dedicated fact-checking sites (Snopes, FactCheck.org), academic folklore journals (notably Contemporary Legend), and a vast online corpus of creepypasta and digital folklore. Urban legend as a category overlaps increasingly with misinformation studies, conspiracy-theory research, and internet-folklore scholarship."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +154,197 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "urban-legends-evidence-snopes",
+        "type": "fact-check archive",
+        "name": "Snopes urban-legend archive",
+        "description": "Searchable corpus of more than 25,000 fact-checked legends, rumors, and viral claims, founded in 1994.",
+        "status": "verified",
+        "analysis": "Standard public reference for the documentation and debunking of urban legends; widely cited by news organizations and academics.",
+        "url": "https://www.snopes.com",
+        "source": "Snopes.com"
+      },
+      {
+        "id": "urban-legends-evidence-brunvand-corpus",
+        "type": "academic corpus",
+        "name": "Brunvand urban-legend corpus",
+        "description": "More than a dozen books and Brunvand's syndicated newspaper column compiling and analyzing American urban legends from 1981 onward.",
+        "status": "verified",
+        "analysis": "Foundational popular-academic dataset for the genre.",
+        "source": "Brunvand, J. H. (1981–present)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Folkloric processing of social anxiety",
+        "description": "Urban legends function as a collective vehicle for processing modern anxieties — about strangers, technology, food, sex, crime, and corporate power — reinforcing community norms while exploring 'safe' fears.",
+        "proponents": ["Jan Harold Brunvand", "Bill Ellis", "Linda Dégh", "Gary Alan Fine"],
+        "evidence_cited": ["Clustering of legends around moments of social stress", "Adaptation of plot details to track new technologies and fears"]
+      },
+      {
+        "name": "Memetic / cognitive selection",
+        "description": "Urban legends survive because their structure — minimal counter-intuitive elements, vivid imagery, emotional charge — is memorable and easily retransmitted.",
+        "proponents": ["Pascal Boyer", "Chip and Dan Heath (Made to Stick, 2007)"],
+        "evidence_cited": ["Cognitive science of memory", "Quantitative studies of viral content online"]
+      },
+      {
+        "name": "Networked / participatory legend",
+        "description": "Online urban legends emerge through participatory authorship across forums and social media; their structure differs from oral legends in that authorship is collective and traceable.",
+        "proponents": ["Trevor J. Blank", "Lynne S. McNeill", "Andrew Peck"],
+        "evidence_cited": ["Slender Man case study", "Creepypasta wikis and image-board archives"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Empirical falsifiability",
+        "description": "Most named urban legends, when investigated, can be shown to be false, vastly distorted, or untraceable to a documented original event.",
+        "proponents": ["Snopes (Mikkelson)", "Joe Nickell"],
+        "evidence_cited": ["Failure of investigators (e.g. Nickell on the Vanishing Hitchhiker) to verify named cases"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American urban-legend tradition (Brunvand corpus)",
+        "British 'modern myth' tradition (Bennett, Smith)",
+        "European contemporary-legend studies",
+        "East Asian school-and-campus legend traditions (Japan: gakkō no kaidan; Korea, Taiwan, China)",
+        "Latin American urban folklore",
+        "Internet creepypasta tradition"
+      ],
+      "stories": [
+        "The Vanishing Hitchhiker",
+        "The Hook / Hookman",
+        "The Killer in the Back Seat",
+        "The Choking Doberman",
+        "The Kentucky Fried Rat",
+        "The Babysitter and the Man Upstairs",
+        "Bloody Mary",
+        "Slender Man",
+        "The Russian Sleep Experiment",
+        "Backrooms"
+      ],
+      "beliefs": "Tellers do not always believe urban legends, but characteristically perform them as if they are true accounts heard from a credible chain of acquaintances."
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "Not an indigenous tradition; a global modern folklore genre."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Brunvand, J. H. (1981) — The Vanishing Hitchhiker",
+        "Brunvand, J. H. (2001) — Encyclopedia of Urban Legends (Norton)",
+        "Bennett, G. & Smith, P. (1993) — Contemporary Legend: A Folklore Bibliography",
+        "Ellis, B. (2001) — Aliens, Ghosts, and Cults: Legends We Live"
+      ],
+      "film_tv": [
+        "Urban Legend (1998)",
+        "Candyman (1992) — film adaptation of an urban-legend tale-type",
+        "Creepshow (anthology series, 2019–) — frequent urban-legend material",
+        "Snopes-themed and folklore-themed documentaries"
+      ],
+      "games": [
+        "Slender: The Eight Pages (2012)",
+        "Various horror games drawing on creepypasta"
+      ],
+      "music": [],
+      "other": [
+        "Snopes.com — leading urban-legend fact-checking site (1994–present)",
+        "Creepypasta wikis and forums",
+        "Reddit subreddits such as r/nosleep specializing in modern legend-style fiction"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Richard M. Dorson", "affiliation": "Indiana University (Folklore Institute)", "contribution": "Major American folklorist; instrumental in establishing 'urban legend' as an academic category", "period": "1950s–1970s" },
+      { "name": "Jan Harold Brunvand", "affiliation": "University of Utah (English/Folklore)", "contribution": "Popularized the urban-legend concept through The Vanishing Hitchhiker (1981) and over a dozen subsequent books", "period": "1980s–present" },
+      { "name": "Linda Dégh", "affiliation": "Indiana University (Folklore Institute)", "contribution": "Foundational scholarship on legend-telling, performance, and belief", "period": "1960s–2000s" },
+      { "name": "Bill Ellis", "affiliation": "Penn State Hazleton (American Studies)", "contribution": "Studies of contemporary legend, ostension, and legend-tripping (notably Aliens, Ghosts, and Cults, 2001)", "period": "1980s–present" },
+      { "name": "Gillian Bennett", "affiliation": "Independent (UK folklore studies)", "contribution": "Co-founder of the International Society for Contemporary Legend Research; major studies of British contemporary legends", "period": "1980s–2010s" },
+      { "name": "Trevor J. Blank", "affiliation": "SUNY Potsdam (Communication / Folklore)", "contribution": "Key scholar of digital folklore and internet legend transmission", "period": "2000s–present" }
+    ],
+    "organizations": [
+      { "name": "International Society for Contemporary Legend Research (ISCLR)", "url": "https://isclr.org", "focus": "Academic society for contemporary-legend studies; publishes the journal Contemporary Legend" },
+      { "name": "American Folklore Society", "url": "https://www.afsnet.org", "focus": "Publishes the Journal of American Folklore; major venue for urban-legend scholarship" },
+      { "name": "Snopes", "url": "https://www.snopes.com", "focus": "Fact-checking and documentation of urban legends and viral misinformation" }
+    ],
+    "ongoing_studies": "Active research includes digital folklore, the social epidemiology of viral misinformation, school-and-campus legend cycles, ostension and legend-tripping, and the relationship between contemporary legend and conspiracy belief."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wiki-urban-legend",
+      "type": "website",
+      "title": "Urban legend",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Urban_legend",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wiki-brunvand",
+      "type": "website",
+      "title": "Jan Harold Brunvand",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jan_Harold_Brunvand",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "brunvand-1981",
+      "type": "book",
+      "title": "The Vanishing Hitchhiker: American Urban Legends and Their Meanings",
+      "authors": ["Jan Harold Brunvand"],
+      "publication": "W. W. Norton",
+      "date": "1981",
+      "isbn": "978-0393951691"
+    },
+    {
+      "id": "brunvand-2001",
+      "type": "book",
+      "title": "Encyclopedia of Urban Legends",
+      "authors": ["Jan Harold Brunvand"],
+      "publication": "W. W. Norton",
+      "date": "2001",
+      "isbn": "978-0393323580"
+    },
+    {
+      "id": "ellis-2001",
+      "type": "book",
+      "title": "Aliens, Ghosts, and Cults: Legends We Live",
+      "authors": ["Bill Ellis"],
+      "publication": "University Press of Mississippi",
+      "date": "2001",
+      "isbn": "978-1578064083"
+    },
+    {
+      "id": "beardsley-hankey-1942",
+      "type": "paper",
+      "title": "The Vanishing Hitchhiker",
+      "authors": ["Richard Beardsley", "Rosalie Hankey"],
+      "publication": "California Folklore Quarterly",
+      "date": "1942"
+    },
+    {
+      "id": "snopes",
+      "type": "website",
+      "title": "Snopes — Fact Checking",
+      "url": "https://www.snopes.com",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
